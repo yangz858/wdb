@@ -1,42 +1,72 @@
 body {
-    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    background-color: floralwhite;
+    font-family: 'IM Fell English', serif;
     font-size: 100%;
     margin: 0 auto;
     width: 900px;
 }
 
 header {
-    background-color: #E6E6E6;
+    background-color: none;
+    font-family: 'IM Fell English', serif;
+    text-align: center;
 }
 
-nav {
-    background-color: #D9853B;
-    padding-bottom: 10px;
-    padding-left: 35px;
-    padding-top: 10px;
-}
-
-li {
+nav ul {
     list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    padding: 20px 10px 20px 10px
+}
+
+.nav-1 {
+    font-size: 1em;
+    color: slategrey;
+    display: inline-block;
+}
+
+.nav-1 li{
+    display: inline-block;
+    padding: 20px 10px 20px 10px;
+}
+
+.nav-2 {
+    font-size: 3em;
+    color: slategrey;
+    display: inline-block;
+    padding: 200px 80px 100px 100px;
 }
 
 a:link {
-    color: #FFF;
+    color: slategray;
     text-decoration: none;
 }
 
 a:visied {
-    color: aqua;
+    color: slategray;
     text-decoration: none;
 }
 
-article {
-    background-color: #ECECEA;
+article {}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    object-position: center;
+    /*    height: 50%;*/
+    width: auto;
 }
 
 h1 {
-    background-color: #558C89;
-    color: #FFF;
+    background-color: none;
+    font-size: 2em;
+    color: black;
+padding: 50px 0px 10px 0px;
 }
 
 h2 {
@@ -45,8 +75,9 @@ h2 {
 }
 
 h3 {
-    background-color: #74AFAD;
-    color: #FFF;
+    background-color: none;
+    color: black;
+    font-size: 2em;
 }
 
 p {

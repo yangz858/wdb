@@ -1,15 +1,23 @@
 body {
-    background-color: floralwhite;
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'IM Fell English', serif;
     font-size: 100%;
     margin: 0 auto;
-    width: 900px;
+    width: 1000px;
 }
 
 header {
     background-color: none;
     font-family: 'IM Fell English', serif;
     text-align: center;
+}
+.social-links{
+    padding: 20px 0px 0px 900px;
+
 }
 
 nav ul {
@@ -22,6 +30,9 @@ nav li{
     padding: 20px 10px 20px 10px
 }
 
+.nav-1 {
+    list-style-type: none;
+}
 .nav-1 {
     font-size: 1em;
     color: slategrey;
@@ -40,14 +51,16 @@ nav li{
     padding: 200px 80px 100px 100px;
 }
 
-a:link {
+.nav-1 a:link {
     color: slategray;
     text-decoration: none;
+    list-style-type: none;
 }
 
-a:visied {
+.nav-1 a:visied {
     color: slategray;
     text-decoration: none;
+    list-style-type: none;
 }
 
 article {}
@@ -58,9 +71,20 @@ figure {
 
 figure img {
     object-position: center;
-    /*    height: 50%;*/
+        height: 50%;
     width: auto;
 }
+
+/*
+.graphic-gallery figure {
+    color: blue;
+    float: left;
+    height: 175px;
+    margin: 20px;
+    text-align: center;
+    width: 28%;
+}
+*/
 
 h1 {
     background-color: none;
@@ -84,6 +108,21 @@ p {
     color: #4C4C4C;
 }
 
+figcaption {
+    padding: 20px 0px 40px 0px;
+}
+
+.about {
+    float:left;
+    padding-left: 200px;
+}
+
+.contact {
+    float:right;
+    padding-right: 250px;
+}
+
 footer {
     text-align: center;
+    padding-top: 15px;
 }
